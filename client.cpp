@@ -3,7 +3,7 @@
 #include <string>
 
 int main() {
-    socket::client client;
+    cpp_socket::client client;
     std::string str;
     while (std::getline(std::cin, str)) {
         puts(client.send(str.c_str()) ? "Success" : "Failed");

@@ -1,7 +1,7 @@
 #include "lib/socket.h"
 
 int main() {
-    socket::server listener;
+    cpp_socket::server listener;
     while (true) {
         listener.listen([](const char *str) {
             puts(str);

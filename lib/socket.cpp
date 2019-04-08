@@ -4,7 +4,7 @@
 
 #include "socket.h"
 
-namespace socket {
+namespace cpp_socket {
     void error(const char *message) {
         perror(message);
         exit(1);

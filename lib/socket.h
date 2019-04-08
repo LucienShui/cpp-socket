@@ -12,7 +12,7 @@
 #include <string.h>
 #include <functional>
 
-namespace socket {
+namespace cpp_socket {
     void error(const char *message);;
     const int SIZE = 256, QUEUE = 10;
     struct __socket_base {
